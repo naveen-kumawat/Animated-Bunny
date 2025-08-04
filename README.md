@@ -68,3 +68,12 @@
 ```bash
 git clone https://github.com/yourusername/animated-bunny-css.git
 cd animated-bunny-css
+
+```bash
+animated-bunny/
+│
+├── 📄 index.html          # The bunny's home
+├── 🎨 style.css           # All the magic happens here
+├── 📖 README.md           # You are here!
+├── 🖼️ bunny-demo.gif      # Preview animation
+└── 📱 demo/               # Live demo files
