@@ -68,6 +68,7 @@
 ```bash
 git clone https://github.com/yourusername/animated-bunny-css.git
 cd animated-bunny-css
+```
 
 ```bash
 animated-bunny/
