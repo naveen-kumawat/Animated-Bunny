@@ -19,6 +19,8 @@
 
 <!-- Add your bunny GIF/video here -->
 <div align="center">
+  <img width="1920" height="1080" alt="bunny" src="https://github.com/user-attachments/assets/f3f7b2ae-ae75-4f4d-9b6b-96e1ba61d440" />
+
   <img src="bunny-demo.gif" alt="Cute Animated Bunny" width="400"/>
   
   *This adorable bunny was made with ZERO JavaScript! 🤯*
