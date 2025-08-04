@@ -68,7 +68,7 @@
 
 ### 1️⃣ Clone This Cuteness
 ```bash
-git clone https://github.com/yourusername/animated-bunny-css.git
+git clone https://github.com/naveen-kumawat/Animated-Bunny.git
 cd animated-bunny-css
 ```
 
