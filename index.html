@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search4Code - Animated Bunny</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            overflow: hidden;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+        }
+        
+        /* Floating particles background */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.3), transparent),
+                radial-gradient(1px 1px at 40px 70px, rgba(255,255,255,0.2), transparent),
+                radial-gradient(1px 1px at 90px 40px, rgba(255,255,255,0.2), transparent),
+                radial-gradient(2px 2px at 130px 80px, rgba(255,255,255,0.3), transparent);
+            background-repeat: repeat;
+            background-size: 200px 200px;
+            animation: sparkle 20s linear infinite;
+            pointer-events: none;
+        }
+        
+        @keyframes sparkle {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-200px); }
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <article role="img" aria-labelledby="alt">
+        <h1 id="alt">Animated Cartoon Bunny</h1>
+        <div class="body">
+            <div class="arm left-arm"></div>
+            <div class="arm right-arm"></div>
+            <div class="leg left-leg"></div>
+            <div class="leg right-leg"></div>
+        </div>
+        <div class="ear left-ear"></div>
+        <div class="ear right-ear"></div>
+        <div class="hair-back"></div>
+        <div class="head">
+            <div class="hair"></div>
+            <div class="cheek left-cheek"></div>
+            <div class="cheek right-cheek"></div>
+            <div class="eye left-eye"></div>
+            <div class="eye right-eye"></div>
+            <div class="mouth"></div>
+            <div class="nose"></div>
+        </div>
+    </article>
+
+    <a id="youtube" href="https://www.youtube.com/@search4code?sub_confirmation=1" target="_blank">
+        <span>Watch how this component was coded</span>
+    </a>
+</body>
+
+</html>
